@@ -1,0 +1,83 @@
+body{
+ background: #fc00ff;
+ background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+ background: linear-gradient(to right, #00dbde, #fc00ff); 
+ background-size: contain;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ -webkit-user-select: none;
+ user-select: none;
+
+}
+#div-master{
+ width: 400;
+ height: 400;
+ position: relative;
+ display: flex;
+ place-items: center;
+ justify-content: center;
+}
+.container{
+ background-color:ghostwhite !important;
+ width: 250px;
+ height: 400px;
+ box-shadow: 5px 5px 5px 5px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ margin-top: 150px;
+ border-radius: 10px;
+}
+
+button{
+ background: #fc00ff; 
+ background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+ background: linear-gradient(to right, #00dbde, #fc00ff);
+ width: 135px;
+ border-radius: 10px;
+ height: 30px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-decoration: none;
+ flex-direction: center;
+ border: white;
+ cursor: pointer;
+}
+h1{
+ margin-top: 0px;
+}
+h3{
+ color: white;
+ border: #00dbde;
+}
+h4{
+ display: flex;
+ justify-content: center;
+}
+h6{
+ display: flex;
+ justify-content: center;
+}
+a{
+ text-decoration: none;
+}
+label{
+justify-content: center;
+display: block;
+flex-direction: center;
+align-items: center;
+}
+input{
+ padding: 10px;
+ border: 1px solid #ccc;
+ border-radius: 5px;  
+
+}
+.checkbox{
+display: flex;
+justify-content: center;
+}
+.link{
+ color:  black !important;
+}
